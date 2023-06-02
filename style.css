@@ -1,2 +1,244 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter;
+    font-weight: medium;
+    background-color: #FAFAFA;
+}
+
+header{
+    display: flex;
+    margin: auto;
+    padding: 48px 0px;
+    max-width: 1272px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 48px 0px;
+    max-width: 1272px;
+    gap: 120px;
+}
+
+.hero-copy{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 104px;
+    line-height: 100%;
+    margin: 0px;
+    background: #ccc;
+    background: linear-gradient( 90deg, #46CD75, #172232);
+    font-weight: 600;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.p-01{
+    font-size: 20px;
+    line-height: 120%;
+    margin: 0px;
+    max-width: 392px;
+    font-weight: medium;
+}
+
+.section-01{
+    display: flex;
+    padding: 80px 0px;
+    justify-content: space-between;
+}
+
+.content-section-01{
+    display: flex;
+    margin: auto;
+    max-width: 1272px;
+    gap: 48px;
+    justify-content: space-between;
+}
+
+.copy-section-01{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.text-title{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+h2{
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 600;
+    margin: 0px;
+    max-width: 612px;
+}
+
+h5{
+    font-size: 14px;
+    line-height: 120%;
+    margin: 0px;
+    text-decoration: line-through;
+}
+
+.images-section-01{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: flex-end;
+}
+
+.card-data-section-02{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: flex-end;
+    align-content: flex-start
+}
+
+.card-data{
+    display: flex;
+    flex-direction: column;
+    width: 258px;
+    padding: 20px;
+    gap: 48px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.card-data-color{
+    display: flex;
+    flex-direction: column;
+    width: 258px;
+    padding: 20px;
+    gap: 48px;
+    background-color: hsla(141, 55%, 52%, 0.2);
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.title-subtitle-card-data{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.p-02{
+    font-size: 20px;
+    line-height: 100%;
+    margin: 0px;
+}
+
+h4{
+    font-size: 40px;
+    line-height: 100%;
+    margin: 0px;
+}
+
+.p-03{
+    font-size: 16px;
+    line-height: 100%;
+    margin: 0px;
+}
+
+.images-section-03{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+
+.formulario{
+    background-color: #fff;
+    box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 612px;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input01{
+    background: #F8F8F9;
+    border: 1px solid #EFF1F8;
+    border-radius: 8px;
+    padding: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #19191A;
+}
+
+.label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #616775;
+}
+
+span{
+    color: #42CA71;
+}
+
+.textarea01{
+    background: #F8F8F9;
+    border: 1px solid #EFF1F8;
+    border-radius: 8px;
+    padding: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #19191A;
+}
+
+.button-solid-form{
+    background: #19191A;
+    border-radius: 12px;
+    color: white;
+    padding: 12px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
