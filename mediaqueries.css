@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@media screen and (max-width: 1272px){
+    header, footer{
+        padding: 20px 20px;
+    }
+}
+
+
+@media screen and (max-width: 1272px){
+    .hero, .section-01{
+        padding: 80px 20px;
+    }
+}
+
+@media screen and (max-width: 1272px){
+    #hero-image{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1020px){
+    h1{
+        font-size: 70px;
+    }
+}
+
+
+@media screen and (max-width: 1020px){
+    h2{
+        font-size: 40px;
+    }
+
+    .content-section-01{
+        flex-wrap: wrap;
+
+    }
+
+    .images-section-01{
+        align-content: flex-start;
+    }
+
+    .card-data-section-02{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .images-section-03{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    h4{
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (max-width: 680px){
+    #imagem01{
+        width: 100%;
+    }
+
+    .card-data{
+        width: 100%;
+    }
+
+    .card-data-color{
+        width: 100%;
+    }
+
+    .input-form{
+        width: 100%;
+    }
+}
+
