@@ -72,4 +72,8 @@
     .navbar-links, .button-solid{
         display: none;
     }
+    
+    .form-content{
+        width: 100%;
+    }
 }
