@@ -3,9 +3,6 @@
 
 
 @media screen and (max-width: 1448px){
-    h1{
-        font-size: 70px;
-    }
 
     header, .section1, footer, .hero-class, .copy-hero{
         padding: 20px 20px;
@@ -13,8 +10,9 @@
 }
 
 @media screen and (max-width: 647px){
-    h1{
-        font-size: 70px;
+    h1, .copy-hero{
+        font-size: 40px;
+        margin: 0px;
     }
 
     h2{
