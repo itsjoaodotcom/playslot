@@ -47,6 +47,10 @@
         padding: 0px;
     }
 
+    .opinion{
+        width: 100%;
+    }
+
     .logos-casas, .logotipos-casas-de-apostas{
         align-items: center;
         align-content: center;
