@@ -22,7 +22,7 @@
     }
 
     .section1{
-        padding: 20px 20px;
+        padding: 80px 20px;
         flex-wrap: wrap;
     }
 
@@ -45,5 +45,31 @@
 
     .cards-line, .list-opinion{
         flex-wrap: wrap;
+        margin: auto;
+        padding: 0px;
+    }
+
+    .logos-casas, .logotipos-casas-de-apostas{
+        align-items: center;
+        align-content: center;
+        margin: auto;
+        padding: 0px;
+    }
+
+    .logos-casas > li{
+        display: flex;
+        margin: auto;
+        padding: 0px;
+        gap: 20px;
+    }
+
+    .content-mapa{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .navbar-links, .button-solid{
+        display: none;
     }
 }
